@@ -1,5 +1,7 @@
 # Group 7: Ayala Wang, Shashank Bhagwani, Shiyuan Wang, Nandhan Natarajan 
 
+**Link to GitHub Repo**: [https://github.com/AyalaWang/cs190Nproject.git](https://github.com/AyalaWang/cs190Nproject.git)
+
 # Campus Network Speed Test Analysis - Experiment Plan (Checkpoint 1)
 
 ## 1. High-Level Explanation of the Experiment
