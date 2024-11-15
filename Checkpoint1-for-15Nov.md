@@ -1,6 +1,6 @@
 # Group 7: Ayala Wang, Shashank Bhagwani, Shiyuan Wang, Nandhan Natarajan 
 
-# Campus Network Speed Test Analysis - Experiment Plan
+# Campus Network Speed Test Analysis - Experiment Plan (Checkpoint 1)
 
 ## 1. High-Level Explanation of the Experiment
 - **Objective**: Analyze UCSB campus Wi-Fi performance across various locations and environmental conditions to identify factors impacting network quality, specifically download/upload speed, latency, jitter, and packet loss. This analysis aims to provide UCSB IT services with actionable insights to improve connectivity on campus.
