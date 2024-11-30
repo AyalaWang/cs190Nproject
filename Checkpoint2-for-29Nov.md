@@ -9,54 +9,45 @@
 ## 1. Update on Data Collection
 
 - **Status**: 
-  - We have successfully collected and labeled **120 packet traces** using the NetUnicorn platform.
-  - Each trace includes metrics such as:
+  - We collected **120 packet traces** using the NetUnicorn platform.
+  - Each trace includes:
     - **Download/upload speed**
     - **Latency**
     - **Jitter**
     - **Packet loss**
-  - Metadata is included with each trace, capturing:
-    - **Location**: Library, lecture halls, outdoor plazas.
-    - **Time**: Peak and off-peak hours.
-    - **Environmental condition**: Indoor and outdoor settings.
+  - Data was collected from three key campus locations: **library**, **lecture halls**, and **outdoor plazas**.
+  - Traces were gathered during **peak** and **off-peak** hours for variability.
 
 - **Challenges**: 
-  - There were initial difficulties in setting up devices at some outdoor locations due to weak power sources and unstable Wi-Fi connectivity.
-  - During peak hours, we observed occasional packet trace interruptions, which required rerunning the data collection tasks to ensure data consistency.
+  - Minor disruptions occurred during outdoor data collection due to power and Wi-Fi instability but were quickly resolved.
+  - Sequential data collection extended the process slightly due to limited device availability.
 
 - **Scaling Plan**:
-  - We plan to scale up the data collection to include **100 more traces**, focusing on less frequently sampled areas such as dormitories and remote corners of the campus.
-  - Scaling will ensure broader coverage and a more representative dataset for model training.
+  - **No further scaling is planned** as the current dataset is sufficient for our proof-of-concept model.
 
 ---
 
 ## 2. Planned Features
 
 - **Extracted Metrics**:
-  - **Download/upload speed**: Captures the data transfer rate.
-  - **Latency**: Measures the delay between data request and response.
-  - **Jitter**: Identifies variations in packet arrival times, critical for real-time applications.
-  - **Packet loss**: Tracks the percentage of lost data packets during transmission.
-  - **Additional derived features**:
-    - Packet size distribution.
-    - Inter-packet arrival times.
-    - Time of day (categorized as peak/off-peak).
+  - **Download/upload speed**
+  - **Latency**
+  - **Jitter**
+  - **Packet loss**
 
 - **Justification**:
-  - These features provide a comprehensive view of network performance and help identify bottlenecks or patterns in UCSB’s Wi-Fi network.
-  - Metadata such as location and environmental conditions enhance the dataset’s contextual relevance, allowing the model to capture nuanced impacts of different settings on network quality.
+  - These metrics are directly tied to evaluating network performance and align with the project goal of assessing UCSB Wi-Fi quality.
 
 ---
 
 ## 3. Model Plan
 
 - **Model Type**: 
-  - We plan to use a **Random Forest Classifier** to classify network performance into predefined categories (e.g., Good, Moderate, Poor).
-  - This model was chosen for its robustness to noise, ability to handle nonlinear relationships between features, and built-in feature importance metrics.
+  - A **Random Forest Classifier** will categorize network performance into three levels: **Good**, **Moderate**, and **Poor**.
 
 - **High-Level Explanation**:
-  - The Random Forest Classifier is well-suited for our dataset as it can effectively work with the mix of categorical (e.g., location) and continuous features (e.g., download speed, latency).
-  - It will also provide insights into which features have the most significant impact on network performance, aiding UCSB IT services in targeting improvements.
+  - Random Forest is ideal for handling small datasets and mixed feature types (e.g., continuous and categorical).
+  - It is robust, interpretable, and provides feature importance metrics to prioritize key network issues.
 
 - **Scikit-learn Implementation**:
   - [Random Forest Classifier Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
@@ -65,15 +56,13 @@
 
 ## 4. Next Steps
 
-- **Data Collection**:
-  - Complete the planned scaling of data collection, focusing on underrepresented campus areas.
 - **Feature Engineering**:
-  - Extract the planned features from the collected packet traces.
-  - Perform feature scaling and encoding as needed for model compatibility.
-- **Model Training and Evaluation**:
-  - Train the Random Forest Classifier on the labeled data.
-  - Evaluate the model using cross-validation and metrics such as accuracy, F1-score, and confusion matrix.
-- **Iterative Improvements**:
-  - Adjust feature selection or model parameters based on preliminary results to improve performance.
+  - Extract the listed metrics from the packet traces.
+  - Preprocess the data for model input (e.g., normalize values as needed).
+- **Model Training**:
+  - Train the Random Forest Classifier on the labeled dataset.
+  - Evaluate the model using metrics such as **accuracy** and **F1-score**.
+- **Proof of Concept**:
+  - Validate the approach by categorizing network quality across sampled locations.
 
 ---
