@@ -1,0 +1,121 @@
+Location,Condition,Download_Speed,Upload_Speed,Latency,Jitter,Packet_Loss
+Outdoor Plaza,Off-Peak,8.5,37.56,82.31,5.72,1.84
+Library,Peak,62.91,35.46,35.38,27.42,2.31
+Outdoor Plaza,Peak,52.75,35.72,25.97,24.85,3.74
+Outdoor Plaza,Off-Peak,9.89,19.26,77.56,28.54,0.18
+Library,Off-Peak,31.47,16.09,82.62,22.05,1.26
+Library,Off-Peak,91.29,40.85,99.15,18.79,3.57
+Outdoor Plaza,Peak,27.76,40.89,47.14,13.13,4.48
+Lecture Hall,Peak,18.77,43.62,43.48,28.05,2.56
+Outdoor Plaza,Peak,51.5,45.84,79.88,26.12,2.66
+Outdoor Plaza,Peak,98.64,26.54,40.67,2.31,0.54
+Outdoor Plaza,Peak,28.0,26.07,93.77,1.76,2.24
+Outdoor Plaza,Peak,68.85,40.32,87.26,11.92,2.66
+Library,Off-Peak,77.35,33.2,48.61,24.51,1.21
+Outdoor Plaza,Peak,27.58,35.69,77.58,29.63,1.35
+Lecture Hall,Peak,74.18,40.2,77.91,5.36,1.89
+Library,Peak,39.94,44.72,19.28,18.23,0.1
+Lecture Hall,Off-Peak,65.07,18.22,91.23,12.05,1.61
+Lecture Hall,Peak,65.19,20.03,55.47,29.13,1.06
+Lecture Hall,Peak,55.9,6.51,84.38,25.42,1.64
+Lecture Hall,Off-Peak,13.58,29.76,38.8,25.31,0.6
+Library,Peak,84.35,3.73,90.6,14.59,4.45
+Library,Peak,35.47,24.35,45.03,13.03,2.97
+Lecture Hall,Peak,22.72,28.05,10.98,8.93,3.4
+Lecture Hall,Peak,8.87,15.75,91.48,2.63,3.95
+Library,Peak,61.13,30.36,18.22,26.08,2.49
+Library,Off-Peak,69.37,3.46,38.74,24.57,0.43
+Library,Off-Peak,6.58,3.79,95.51,29.99,2.69
+Outdoor Plaza,Off-Peak,53.65,41.48,95.55,29.9,2.93
+Outdoor Plaza,Peak,26.52,19.29,61.61,17.11,3.73
+Outdoor Plaza,Peak,66.29,8.1,66.87,23.3,2.16
+Lecture Hall,Peak,21.56,27.07,50.36,28.4,0.64
+Outdoor Plaza,Off-Peak,70.64,38.96,36.39,25.64,1.42
+Lecture Hall,Peak,41.74,12.36,39.58,8.17,1.82
+Lecture Hall,Peak,93.99,31.9,70.53,14.07,3.23
+Outdoor Plaza,Off-Peak,18.06,6.1,77.71,4.75,2.85
+Lecture Hall,Peak,37.4,4.48,81.24,28.67,1.78
+Outdoor Plaza,Off-Peak,15.78,27.51,81.07,18.58,4.93
+Outdoor Plaza,Off-Peak,92.85,27.95,18.21,7.63,3.03
+Library,Off-Peak,88.35,32.6,54.5,20.48,1.19
+Outdoor Plaza,Peak,29.5,36.85,15.18,18.93,0.51
+Library,Peak,67.7,48.84,59.46,11.39,0.76
+Outdoor Plaza,Peak,82.64,26.78,49.74,4.29,1.23
+Outdoor Plaza,Peak,57.74,17.5,89.89,20.48,0.8
+Library,Peak,55.32,40.17,41.58,16.09,0.93
+Library,Peak,27.98,15.0,20.54,23.4,1.43
+Outdoor Plaza,Peak,13.84,23.07,22.87,16.08,0.87
+Lecture Hall,Off-Peak,90.24,5.77,78.54,25.71,4.48
+Library,Peak,90.54,3.22,65.64,17.01,0.4
+Lecture Hall,Off-Peak,65.14,48.21,19.1,17.27,2.62
+Lecture Hall,Peak,37.21,42.13,17.57,26.42,2.05
+Lecture Hall,Peak,38.17,35.41,73.09,12.7,4.91
+Library,Peak,73.97,21.63,16.55,4.89,0.56
+Lecture Hall,Off-Peak,90.23,10.32,83.97,1.83,1.99
+Library,Off-Peak,89.27,9.51,73.56,22.9,4.85
+Lecture Hall,Off-Peak,79.09,14.01,17.32,18.99,4.33
+Outdoor Plaza,Off-Peak,65.99,28.36,17.64,21.42,4.09
+Outdoor Plaza,Peak,12.99,36.3,98.8,7.18,1.29
+Library,Off-Peak,20.35,33.69,43.68,4.95,0.85
+Outdoor Plaza,Peak,90.36,15.44,43.36,1.42,3.34
+Outdoor Plaza,Peak,62.61,47.83,83.15,11.17,4.65
+Lecture Hall,Off-Peak,5.87,37.42,95.25,18.11,2.78
+Library,Off-Peak,14.64,28.61,98.74,12.38,2.86
+Lecture Hall,Off-Peak,68.03,31.36,77.8,13.69,1.4
+Lecture Hall,Off-Peak,5.48,22.14,43.86,27.22,3.85
+Lecture Hall,Off-Peak,20.28,13.89,17.52,11.1,0.94
+Lecture Hall,Off-Peak,57.13,19.09,79.94,15.91,1.62
+Lecture Hall,Off-Peak,70.73,38.38,60.26,23.73,2.13
+Lecture Hall,Off-Peak,66.94,2.69,48.18,12.5,2.54
+Lecture Hall,Peak,26.31,7.57,91.57,19.04,1.21
+Library,Off-Peak,72.66,4.21,20.01,26.01,0.57
+Outdoor Plaza,Off-Peak,27.54,3.95,54.34,28.54,3.05
+Lecture Hall,Peak,35.91,43.06,11.02,5.27,1.44
+Lecture Hall,Off-Peak,75.92,35.78,52.18,27.87,2.91
+Lecture Hall,Peak,66.72,24.76,15.07,15.27,0.77
+Lecture Hall,Peak,85.68,6.7,20.69,8.49,2.41
+Lecture Hall,Off-Peak,67.47,25.6,20.58,14.31,2.66
+Lecture Hall,Peak,58.99,24.73,68.43,29.42,0.26
+Outdoor Plaza,Peak,13.9,10.31,77.14,15.29,1.68
+Outdoor Plaza,Peak,39.93,22.82,62.5,10.53,0.67
+Lecture Hall,Peak,30.19,21.13,96.6,19.37,0.32
+Outdoor Plaza,Off-Peak,28.18,31.56,43.74,7.96,4.95
+Library,Peak,97.44,32.48,35.71,3.2,1.61
+Lecture Hall,Off-Peak,42.34,4.17,88.17,4.74,4.05
+Library,Peak,89.74,19.98,30.12,4.71,1.27
+Library,Peak,64.96,32.04,96.69,5.41,3.41
+Lecture Hall,Peak,80.51,26.15,11.09,5.03,3.8
+Outdoor Plaza,Peak,52.75,43.11,97.29,19.59,2.98
+Library,Off-Peak,59.81,33.62,13.88,6.27,2.36
+Lecture Hall,Off-Peak,51.79,9.82,90.2,11.02,2.06
+Library,Peak,23.55,5.39,57.49,27.01,1.74
+Library,Peak,73.63,32.84,99.37,14.74,4.65
+Library,Off-Peak,31.67,3.27,16.64,20.36,4.15
+Library,Peak,7.31,30.12,59.85,6.0,4.83
+Outdoor Plaza,Peak,66.32,47.13,97.24,6.58,0.62
+Library,Peak,21.83,29.62,57.08,2.19,3.65
+Library,Off-Peak,94.34,20.63,66.65,5.9,4.69
+Library,Off-Peak,95.62,32.88,72.62,9.08,0.91
+Outdoor Plaza,Off-Peak,91.91,24.0,50.91,6.13,0.33
+Library,Peak,40.17,28.19,66.48,3.57,3.71
+Library,Peak,6.47,47.19,62.59,4.5,2.87
+Outdoor Plaza,Off-Peak,93.19,20.53,91.1,14.36,4.21
+Outdoor Plaza,Off-Peak,45.68,48.14,14.09,6.98,0.7
+Outdoor Plaza,Off-Peak,96.83,45.46,35.29,11.56,3.98
+Library,Off-Peak,96.54,11.4,95.54,15.6,1.01
+Outdoor Plaza,Peak,86.04,5.33,90.12,21.02,0.82
+Outdoor Plaza,Off-Peak,32.97,6.84,51.01,2.14,0.82
+Library,Peak,41.58,2.87,65.81,24.18,4.07
+Outdoor Plaza,Off-Peak,85.86,6.53,34.96,19.21,3.33
+Library,Peak,35.11,34.78,26.93,3.37,2.62
+Lecture Hall,Off-Peak,21.1,5.42,51.73,26.33,1.79
+Outdoor Plaza,Off-Peak,57.9,17.31,41.8,27.71,4.39
+Lecture Hall,Off-Peak,93.93,42.55,62.53,2.77,1.96
+Library,Off-Peak,71.12,3.12,17.0,9.03,4.08
+Outdoor Plaza,Peak,59.16,41.09,97.7,24.38,2.2
+Library,Off-Peak,14.23,15.53,98.76,22.7,1.88
+Lecture Hall,Peak,63.43,7.67,72.83,6.35,2.31
+Library,Peak,99.06,35.44,58.25,7.07,1.51
+Outdoor Plaza,Peak,18.31,32.19,37.86,11.74,3.74
+Outdoor Plaza,Peak,54.24,44.12,83.24,15.05,2.51
+Lecture Hall,Off-Peak,88.35,37.28,71.63,18.93,1.16
